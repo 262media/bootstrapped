@@ -99,3 +99,6 @@ header {
     float: left;
     display: block;
 }
+.help-inline{
+    margin-bottom: 9px;
+}
