@@ -1,0 +1,101 @@
+/*!
+ * Bootstrapped Magento Responsive Theme v0.9.1.1
+ *
+ * Copyright 2012 Magenthon.com
+ *
+ * Modified for Magento by @magenthon
+ */
+.block-cart .form-horizontal .control-group .control-label {
+	width: 50px !important;
+}
+.block-cart .form-horizontal .controls {
+	margin-left: 60px;
+}
+.block-related .form-horizontal .control-group .control-label {
+	width: 50px !important;
+}
+.block-related .form-horizontal .controls {
+	margin-left: 60px;
+}
+.amount {
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.the-icons {
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.pagination {
+	margin: 0px !important;
+}
+.pagination a {
+	line-height: 26px !important;
+}
+.toolbar {
+	line-height: 28px !important;
+	height: 28px !important;
+	background-color: #eee;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-image: -moz-linear-gradient(center top, #F5F5F5 0%, #EEEEEE 100%);
+	background-repeat: repeat-x;
+	border: 1px solid #E5E5E5;
+}
+.add-to-links { margin: 5px 0 0 0;}
+.old-price { text-decoration: line-through;}
+.price{
+	font-weight: bold;
+	color: #DA4F49;
+}
+#wishlistCarousel .price {
+	color: #FFF;
+}
+.crosssell .price {
+	color: #FFF;
+}
+.box-up-sell.well {
+	background-color: #fff;
+}
+.alert-custom {
+	color:#C09853;
+	background-color: #B94A48;
+	border: medium none;
+}
+.alert-custom p{
+	text-shadow: 0 0 0.2em #CCFFCC, 0 0 0.2em #CCFFCC, 0 0 0.2em #CCFFCC;
+}
+body{
+	background-image: none !important;
+    padding-top: 45px;
+}
+@media (min-width: 768px) and (max-width: 980px) {
+    /* Remove any padding from the body */
+    body {
+        padding-top: 0;
+    }
+}
+@media (max-width: 768px) {
+    /* Remove any padding from the body */
+    body {
+        padding-top: 0;
+    }
+}
+header {
+    padding-bottom: 5px;
+}
+.hero-unit {
+    padding: 30px;
+    background-color: #f5f5f5;
+}
+.form-actions {
+    background-color: #f5f5f5;
+}
+.help-block {
+    color: #999999;
+}
+.input-prepend .add-on,
+.input-append .add-on {
+    float: left;
+    display: block;
+}
