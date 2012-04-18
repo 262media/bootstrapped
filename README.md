@@ -20,6 +20,15 @@ You can preview how [responsive is](http://responsive.is/bootstrapped.magenthon.
 
 
 
+Setup Bootstrapped Theme in Magento Store
+------------
+
+Download whole content and put in your public_html folder of Magento installation.
+
+Navigate to design configuration in Magento admin panel and for theme package type "bootstrapped".
+
+
+
 Twitter account
 ---------------
 
