@@ -22,6 +22,7 @@ skin/frontend/default/*
 skin/frontend/bootstrapped/default/img.org/*
 skin/frontend/bootstrapped/default/css.org/*
 skin/frontend/bootstrapped/default/js.org/*
+app/Mage.php
 app/code/*
 app/etc/*
 app/locale/*

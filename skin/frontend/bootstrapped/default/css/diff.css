@@ -57,7 +57,7 @@
 	text-shadow: 0 0 0.2em #CCFFCC, 0 0 0.2em #CCFFCC, 0 0 0.2em #CCFFCC;
 }
 body{
-	background-image: none !important;
+	background-image: url('http://bootstrapped.magenthon.com/pixel.png') !important;
     padding-top: 45px;
 }
 @media (min-width: 768px) and (max-width: 980px) {
