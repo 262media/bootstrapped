@@ -160,3 +160,12 @@ a.product-image img{
     padding: 0;
     max-height: 100%;
 }
+.navbar-fixed-top .brand {
+    float: left;
+    margin-left: 0;
+    font-size: 22px;
+}
+.navbar .brand:hover, .navbar .brand.active {
+    text-shadow: 0 0 0.2em #CFC, 0 0 0.2em #CFC, 0 0 0.2em #CFC;
+    filter: progid:DXImageTransform.Microsoft.Glow(color=#ccffcc,strength=2);
+}
