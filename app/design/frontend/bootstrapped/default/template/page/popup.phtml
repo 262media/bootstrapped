@@ -14,8 +14,8 @@
  * Template for Mage_Page_Block_Html
  */
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->getLang() ?>" lang="<?php echo $this->getLang() ?>">
+<!DOCTYPE html>
+<html lang="<?php echo $this->getLang() ?>">
 <head>
 <?php echo $this->getChildHtml('head') ?>
 </head>
@@ -23,20 +23,13 @@
 <div>
     <?php echo $this->getChildHtml('after_body_start') ?>
     <?php echo $this->getChildHtml('content') ?>
-    <?php echo $this->getChildHtml('before_body_end') ?>
 </div>
         <!-- Le javascript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
 
         <script src="<?php echo $this->getSkinUrl('js/jquery.js'); ?>"></script>
-        <script type="text/javascript">
-            $.noConflict();
-            jQuery(document).ready(function($) {
-                // Code that uses jQuery's $ can follow here.
-            });
-            // Code that uses other library's $ can follow here.
-        </script>
+
         <script src="<?php echo $this->getSkinUrl('js/google-code-prettify/prettify.js'); ?>"></script>
         <script src="<?php echo $this->getSkinUrl('js/bootstrap-transition.js'); ?>"></script>
         <script src="<?php echo $this->getSkinUrl('js/bootstrap-alert.js'); ?>"></script>
@@ -51,5 +44,8 @@
         <script src="<?php echo $this->getSkinUrl('js/bootstrap-carousel.js'); ?>"></script>
         <script src="<?php echo $this->getSkinUrl('js/bootstrap-typeahead.js'); ?>"></script>
         <script src="<?php echo $this->getSkinUrl('js/application.js'); ?>"></script>
+
+        <?php echo $this->getChildHtml('before_body_end') ?>
+
 </body>
 </html>

@@ -10,7 +10,7 @@
  */
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo $this->getLang() ?>">
     <head>
         <?php echo $this->getChildHtml('head') ?>
     </head>
@@ -51,7 +51,6 @@
         <footer class="footer">
             <div class="container">
                 <?php echo $this->getChildHtml('footer') ?>
-                <?php echo $this->getChildHtml('before_body_end') ?>
                 <?php echo $this->getChildHtml('global_notices') ?>
             </div>
         </footer>
@@ -60,13 +59,7 @@
         <!-- Placed at the end of the document so the pages load faster -->
 
         <script src="<?php echo $this->getSkinUrl('js/jquery.js'); ?>"></script>
-        <script type="text/javascript">
-            $.noConflict();
-            jQuery(document).ready(function($) {
-                // Code that uses jQuery's $ can follow here.
-            });
-            // Code that uses other library's $ can follow here.
-        </script>
+
         <script src="<?php echo $this->getSkinUrl('js/google-code-prettify/prettify.js'); ?>"></script>
         <script src="<?php echo $this->getSkinUrl('js/bootstrap-transition.js'); ?>"></script>
         <script src="<?php echo $this->getSkinUrl('js/bootstrap-alert.js'); ?>"></script>
@@ -81,5 +74,8 @@
         <script src="<?php echo $this->getSkinUrl('js/bootstrap-carousel.js'); ?>"></script>
         <script src="<?php echo $this->getSkinUrl('js/bootstrap-typeahead.js'); ?>"></script>
         <script src="<?php echo $this->getSkinUrl('js/application.js'); ?>"></script>
+
+        <?php echo $this->getChildHtml('before_body_end') ?>
+
     </body>
 </html>
