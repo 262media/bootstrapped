@@ -33,7 +33,9 @@ Default layout, loads most of the pages
         <reference name="content">
             <block type="core/template" name="alert_global_messages" template="core/messages.phtml" before="-" />
         </reference>
-
+        <reference name="before_body_end">
+            <block type="core/template" name="jquery_noconflict" template="jquery/noconflict.phtml" before="-" />
+        </reference>
     </default>
 
     <customer_account>
