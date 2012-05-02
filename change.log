@@ -1,2 +1,9 @@
+* --------- Version 0.9.1.2 -----------
+* + fix for main navigation after stretching and resizing
+* + added jquery no conflict before body ends
+* + added support for old IE browsers
+* + removed jquery no conflict from page templates
+* + css changes for brand/logo
+
 * --------- Version 0.9.1.1 -----------
 * + Added all files and server updated: demo link http://bootstrapped.magenthon.com/
